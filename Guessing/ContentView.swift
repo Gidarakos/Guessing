@@ -9,9 +9,8 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading, spacing: 20) {
-            Text("Hello world")
-            Text("This is an inside stack")
+        Button("Delete selection") {
+            print("Now deleting...")
         }
     }
 }
